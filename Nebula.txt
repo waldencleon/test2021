@@ -25,3 +25,4 @@ ln -s /bin/getflag /home/level01/echo
 
 6.
 
+This is a test
